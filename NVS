@@ -1,0 +1,102 @@
+<!DOCTYPE html><html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NVS E-SPORT</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #000;
+  color: #fff;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-bottom: 1px solid #222;
+}
+header img {
+  height: 50px;
+}
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+}
+.hero h1 {
+  font-size: 28px;
+  color: #22c55e;
+}
+.btn {
+  background: #22c55e;
+  padding: 12px 20px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+}
+.section {
+  padding: 30px 20px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.card {
+  background: #111;
+  border-radius: 12px;
+  padding: 10px;
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 12px;
+  color: #777;
+}
+</style>
+</head>
+<body><header>
+  <img src="logo.png" alt="NVS Logo">
+</header><section class="hero">
+  <h1>NVS E-SPORT</h1>
+  <p>Time competitivo de Free Fire</p>
+  <br>
+  <a href="https://discord.gg/hHCvPdyw">
+    <button class="btn">Entrar no Time</button>
+  </a>
+</section><section class="section">
+  <h2 style="text-align:center;">Uniformes Oficiais</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="calca.jpg">
+      <p>Calça NVS</p>
+    </div>
+    <div class="card">
+      <img src="moletom.jpg">
+      <p>Moletom NVS</p>
+    </div>
+    <div class="card">
+      <img src="camisa-frente.jpg">
+      <p>Camisa NVS</p>
+    </div>
+    <div class="card">
+      <img src="camisa-costas.jpg">
+      <p>Costas</p>
+    </div>
+  </div>
+</section><section class="section">
+  <h2 style="text-align:center;">Sobre</h2>
+  <p style="text-align:center; color:#aaa;">
+    Fundada em 2021, a NVS E-SPORT busca revelar novos talentos no cenário competitivo.
+  </p>
+</section><footer>
+  © 2026 NVS E-SPORT
+</footer></body>
+</html>
